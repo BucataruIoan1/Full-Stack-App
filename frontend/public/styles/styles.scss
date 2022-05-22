@@ -1,0 +1,38 @@
+$backgroundColor: #85F4FF;
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $backgroundColor;
+    height: 100vh;
+}
+
+#titleTable {
+    font-size: 2rem;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.add-container {
+    width: 100%;
+    text-align: center;
+}
+
+.add-button {
+    width: 300px;
+}
+
+.edit-button {
+    margin-right: 10px;
+}
